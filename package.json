@@ -1,0 +1,24 @@
+{
+  "name": "xbox360-goddess",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/met5678/xbox360-goddess.git"
+  },
+  "author": "Andrew Metcalf <met5678@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/met5678/xbox360-goddess/issues"
+  },
+  "homepage": "https://github.com/met5678/xbox360-goddess#readme",
+  "dependencies": {
+    "ipc-goddess": "^1.0.2",
+    "nconf": "^0.8.4",
+    "node-hid": "^0.5.1"
+  }
+}

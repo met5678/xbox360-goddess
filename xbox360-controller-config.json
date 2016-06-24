@@ -1,0 +1,29 @@
+{
+  "input": {
+    "buttons": {
+      "A":       { "addr": 3, "bitmask": "0x10" },
+      "B":       { "addr": 3, "bitmask": "0x20" },
+      "X":       { "addr": 3, "bitmask": "0x40" },
+      "Y":       { "addr": 3, "bitmask": "0x80" },
+      "Start":   { "addr": 2, "bitmask": "0x10" },
+      "Back":    { "addr": 2, "bitmask": "0x20" },
+      "Home":    { "addr": 3, "bitmask": "0x04" },
+      "DUp":     { "addr": 2, "bitmask": "0x01" },
+      "DDown":   { "addr": 2, "bitmask": "0x02" },
+      "DLeft":   { "addr": 2, "bitmask": "0x04" },
+      "DRight":  { "addr": 2, "bitmask": "0x08" },
+      "LStick":  { "addr": 2, "bitmask": "0x40" },
+      "RStick":  { "addr": 2, "bitmask": "0x80" },
+      "LButton": { "addr": 3, "bitmask": "0x01" },
+      "RButton": { "addr": 3, "bitmask": "0x02" }
+    },
+    "triggers": {
+      "L": { "addr": 4 },
+      "R": { "addr": 5 }
+    },
+    "sticks": {
+      "L": { "addrHoriz": 6, "addrVert": 8 },
+      "R": { "addrHoriz": 10, "addrVert": 12 }
+    }
+  }
+}

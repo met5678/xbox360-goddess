@@ -1,0 +1,48 @@
+{
+  "buttons": {
+    "A": {
+      "type": "tap",
+      "packet": {
+        "action": "beat"
+      }
+    },
+    "Y": {
+      "type": "hold",
+      "onPacket": {
+        "strobe": true
+      },
+      "offPacket": {
+        "strobe": false
+      }
+    },
+    "X": {
+      "type": "tap",
+      "packet": {
+        "action": "randomize"
+      }
+    },
+    "Home": {
+      "type": "toggle",
+      "onPacket": {
+        "randomize": true
+      },
+      "offPacket": { 
+        "randomize": false
+      },
+      "onLED": 13,
+      "offLED": 6
+    },
+    "LButton": {
+      "type": "tap",
+      "packet": {
+        "action": "prevPreset"
+      }
+    },
+    "RButton": {
+      "type": "tap",
+      "packet": {
+        "action": "nextPreset"
+      }
+    }
+  }
+}
